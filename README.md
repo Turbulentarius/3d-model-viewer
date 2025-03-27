@@ -11,4 +11,6 @@ Run the following command to start a dev server:
 npm run dev
 ```
 
+Also, remember to run `npm install` first (doh! hehe).
+
 If you are using Firefox, then note that this might only work from Chromium based browsers. E.g. Brave, Google Chrome, and Microsoft Edge.
