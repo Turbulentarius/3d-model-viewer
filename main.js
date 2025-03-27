@@ -102,7 +102,6 @@ canvas.addEventListener("mousemove", (e) => {
 document.querySelectorAll("#uiControls button").forEach((btn) => {
   btn.addEventListener("click", () => {
     const type = btn.dataset.texture;
-    if (!model) return;
-    applyTexture(materialType);
+    applyTexture(type);
   });
 });
