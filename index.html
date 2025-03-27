@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Model Viewer</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+    #uiControls { position: absolute; bottom: 0.5rem; right: .5rem; z-index: 1; }
+	button {margin:1rem;vertical-align:middle;cursor:pointer;}
+	button img {border-radius: 9999px;vertical-align:middle;}
+  </style>
+ 
+</head>
+<body>
+<script type="module" src="/main.js"></script>
+<canvas id="scene"></canvas>
+
+<div id="uiControls">
+  <button data-texture="oak">
+  <img src="oak.jpg" width="25" height="25"> 
+  Egetræ
+  </button>
+  <button data-texture="balsa">
+  <img src="balsa.jpg" width="25" height="25">
+  Balsatræ
+  </button>
+  <button data-texture="plastic">
+  <img src="plastic.jpg" width="25" height="25">
+  Syntetisk plastik
+  </button>
+</div>
+
+</body>
+</html>
