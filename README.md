@@ -1,5 +1,5 @@
 
-Make sure to place a file in the root `./model.glb` — you can export models from Blender to `.glp`!
+Make sure to place a file in the public folder `./public/model.glb` — you can export models from Blender to `.glp`!
 
 Currently the following is possible:
 
